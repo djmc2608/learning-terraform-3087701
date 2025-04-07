@@ -29,7 +29,7 @@ resource "aws_instance" "blog" {
   }
 }
 
-resource "aws_secuity_group" "blog" {
+resource "aws_security_group" "blog" {
   name        = "blog"
   description = "Allows http and httpsd in and out. Allow everything out"
 
